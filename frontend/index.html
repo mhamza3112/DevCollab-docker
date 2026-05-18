@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Automated Certificate Generator</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Automated Certificate Generator</h1>
+
+    <form id="certificateForm">
+      <input type="text" id="studentName" placeholder="Student Name" required />
+
+      <input type="text" id="courseName" placeholder="Course Name" required />
+
+      <input type="date" id="issueDate" required />
+
+      <button type="submit">Generate Certificate</button>
+    </form>
+
+    <h2>Generated Certificates</h2>
+
+    <div id="certificateList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
